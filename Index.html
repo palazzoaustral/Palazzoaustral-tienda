@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tienda Oficial - Palazzo Austral</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0a0a0a;
+    color: white;
+}
+
+header {
+    background: linear-gradient(90deg, #000000, #a00000);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.banner {
+    background: linear-gradient(180deg, #111, #a00000);
+    padding: 60px 20px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.container {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.product {
+    background: #111;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(255,0,0,0.2);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.price {
+    color: #ff2a2a;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+button {
+    background: #a00000;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ff0000;
+}
+
+footer {
+    background: black;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.anim {
+    font-size: 24px;
+    animation: fadeIn 3s infinite alternate;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>TIENDA OFICIAL - PALAZZO AUSTRAL</h1>
+</header>
+
+<div class="banner">
+<span class="anim">Pasión de Barrio, Identidad de Club</span>
+</div>
+
+<div class="container">
+
+<h2>Indumentaria Oficial</h2>
+
+<div class="grid">
+
+<div class="product">
+<img src="https://via.placeholder.com/300x300" alt="Camiseta Oficial">
+<h3>Camiseta Oficial</h3>
+<p class="price">$35.000</p>
+<a href="https://link.mercadopago.com.ar/palazzoaustraltienda" target="_blank">
+<button>Comprar ahora</button>
+</a>
+</div>
+
+<div class="product">
+<img src="https://via.placeholder.com/300x300" alt="Short Oficial">
+<h3>Short Oficial</h3>
+<p class="price">$18.000</p>
+<a href="https://link.mercadopago.com.ar/palazzoaustraltienda" target="_blank">
+<button>Comprar ahora</button>
+</a>
+</div>
+
+<div class="product">
+<img src="https://via.placeholder.com/300x300" alt="Buzo Oficial">
+<h3>Buzo Oficial</h3>
+<p class="price">$42.000</p>
+<a href="https://link.mercadopago.com.ar/palazzoaustraltienda" target="_blank">
+<button>Comprar ahora</button>
+</a>
+</div>
+
+<div class="product">
+<img src="https://via.placeholder.com/300x300" alt="Campera Oficial">
+<h3>Campera Oficial</h3>
+<p class="price">$55.000</p>
+<a href="https://link.mercadopago.com.ar/palazzoaustraltienda" target="_blank">
+<button>Comprar ahora</button>
+</a>
+</div>
+
+</div>
+</div>
+
+<footer>
+<h2>Apoya al club</h2>
+<p>Cada compra ayuda a que Palazzo Austral siga creciendo dentro y fuera de la cancha. 🔴⚫</p>
+<p>Envío gratis a toda Argentina</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/542974772829?text=Hola,%20quiero%20consultar%20por%20productos%20de%20la%20Tienda%20Oficial%20de%20Palazzo%20Austral." target="_blank">
+💬
+</a>
+
+</body>
+</html>
